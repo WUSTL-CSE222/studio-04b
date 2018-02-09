@@ -12,7 +12,7 @@ var light = {
     g: 100,
     b: 0,
     powered: false,
-    autoOffEnabled: true,
+    autoOffEnabled: false,
     autoOffTime: 2,
 
     autoOffTimer: null,
