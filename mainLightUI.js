@@ -36,7 +36,6 @@ function setColorClicked(event) {
   var green = Math.round(greenSlider.value*255/100)
   var blue = Math.round(blueSlider.value*255/100)
   // TODO: Pass the choice of colors to the light.
-  light.setColor({"r":red, "g":green, "b":blue})
 }
 
 function redSliderChange(event) {
